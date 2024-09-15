@@ -454,4 +454,15 @@ p{
 }
 
 
+.footer-menu a:hover{
+    color: gray;
+}
+
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
 /* footer ends here  */
